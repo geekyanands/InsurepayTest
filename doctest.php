@@ -46,7 +46,7 @@ function api_call ($endpointurl, $requestXML,$check_path) {
     //   curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 2);
     //  curl_setopt($curl, CURLOPT_TIMEOUT, 10); // 5 sec
   //  curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 0);
-    $response = curl_exec($curl);
+    $response = curl_execkkkkkkkkkkkkkk($curl);
     
     curl_close($curl);
     
